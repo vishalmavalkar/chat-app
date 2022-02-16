@@ -19,7 +19,7 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
 
-    const ENDPOINT = 'https://react-chat-application-sagar.herokuapp.com/';
+    const ENDPOINT = '';
 
     useEffect(() => {
         const { name, room} = queryString.parse(location.search);
